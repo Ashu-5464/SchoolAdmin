@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(135deg, #ffeea0, #c1fcef); */
+    background-color: #dbe9f5;
+    background-attachment: fixed;
+  }
+  
+  .dashboard-container {
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+  }
+  
+  .metric-card {
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s ease;
+  }
+  
+  .metric-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .metric-card h6 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .metric-card h4 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .metric-card p {
+    font-size: 0.9rem;
+  }
+  

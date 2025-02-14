@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    .MuiDrawer-paper {
+      width: 200px !important; /* Reduce sidebar width */
+    }
+    .MuiListItem-root {
+      font-size: 14px; /* Smaller font */
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .MuiDrawer-paper {
+      width: 240px;
+    }
+  }
+  

@@ -1,0 +1,31 @@
+/* Custom CSS for responsiveness */
+@media (max-width: 600px) {
+  .rbc-calendar {
+    font-size: 12px;
+  }
+
+  .rbc-toolbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rbc-btn-group {
+    flex-direction: column;
+  }
+
+  .rbc-header {
+    font-size: 12px;
+  }
+
+  .rbc-event {
+    font-size: 12px;
+  }
+
+  .MuiTypography-h5 {
+    font-size: 1.2rem;
+  }
+
+  .MuiButton-root {
+    font-size: 0.875rem;
+  }
+}
