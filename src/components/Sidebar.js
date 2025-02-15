@@ -449,12 +449,12 @@ const Sidebar = ({ open, onClose }) => {
       >
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Avatar
-            src="/images/Rushya.jpg" // Replace with dynamic avatar URL
+            src="/images/Picture1.jpg" // Replace with dynamic avatar URL
             alt=""
             sx={{ width: 32, height: 32, margin: "8px" }}
           />
           <ListItemText
-            primary="Rushikesh D" // Replace with dynamic user name
+            primary="Ashwini" // Replace with dynamic user name
             sx={{
               span: { fontSize: "14px", color: "#ffffff", fontWeight: "bold" },
             }}
